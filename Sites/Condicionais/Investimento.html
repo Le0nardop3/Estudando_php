@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de investimentos</title>
+</head>
+<body>
+
+    <h1>Simulador de investimentos</h1>
+    <table border="">
+        <tr> <td>Tipo</td> <td>Descrição</td> <td>Rendimento mensal</td> </tr>
+        <tr> <td>1</td> <td>Poupança</td> <td>3%</td> </tr>
+        <tr> <td>2</td> <td>Fundos de investimentos</td> <td>4%</td> </tr>
+    </table>
+    <br>
+    <form action="Investimento.php" method="post">
+        <fieldset>
+            <legend>Insira os dados</legend><br>
+            Tipo de Investimento: <input type="text" name="tipo" id="tipo"><br><br>
+            Valor investido R$:<input type="text" name="valor" id="valor"><br><br>
+            <button>Calcular</button>
+        </fieldset>
+    </form>
+</body>
+</html>
